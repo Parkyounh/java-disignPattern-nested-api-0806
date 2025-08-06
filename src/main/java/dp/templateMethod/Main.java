@@ -5,6 +5,8 @@ public class Main {
 		AbstractDisplay d1 = new CharDisplay('H');  //다형성을 위해 AbstractDisplay타입으로 생성
 		d1.display();
 		
+		System.out.println("");
+		
 		d1 = new StringDisplay("Hello");
 		d1.display();
 	}
