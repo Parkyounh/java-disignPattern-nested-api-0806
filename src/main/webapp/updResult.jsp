@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 <%
+
 String num = request.getParameter("num");
 String content = request.getParameter("content");
 Connection conn = null;
